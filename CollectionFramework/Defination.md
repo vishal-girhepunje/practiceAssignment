@@ -48,3 +48,9 @@ There are only three methods in the Iterator interface. They are:
 -  The Collection interface extends the Iterable interface and therefore all the subclasses of Collection interface also implement the Iterable interface.
 
 It contains only one abstract method. i.e.,
+
+
+# Collection Interface
+The Collection interface is the interface which is implemented by all the classes in the collection framework. It declares the methods that every collection will have. In other words, we can say that the Collection interface builds the foundation on which the collection framework depends.
+
+Some of the methods of Collection interface are Boolean add ( Object obj), Boolean addAll ( Collection c), void clear(), etc. which are implemented by all the subclasses of Collection interface.
