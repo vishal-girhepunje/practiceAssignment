@@ -4,7 +4,6 @@ public class Varriable {
     public void exampleMethod() {
         int methodVariable; // Method variable
     }
-
         public static void main(String[] args) {
             // Primitive types
             int age = 25;
@@ -15,7 +14,7 @@ public class Varriable {
             // Reference types
             String name = "John Doe";
             
-            // Local variable type inference (Java 10 and later)
+            // Local variable type inference 
             var count = 10;
     
             System.out.println("Age: " + age);
